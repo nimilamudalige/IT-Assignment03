@@ -1,0 +1,50 @@
+
+body{
+    margin: 0;
+}
+.container > div{
+    border: 1px solid black;
+    height:33.2vh;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%; 
+}
+
+#box-red{
+    background-color: red;
+}
+#box-green{
+    background-color: green;
+}
+#box-orange{
+    background-color: orangered;
+}
+#box-purple{
+    background-color: purple;
+}
+#box-pink{
+    background-color: deeppink;
+}
+#box-blue{
+    background-color: blue;
+}
+#box-brown{
+    background-color: brown;
+}
+#box-lightpink{
+    background-color: orchid;
+}
+#box-darkBlue{
+    background-color: indigo;
+}
+#box-yellow{
+    background-color: yellow;
+}
+#box-cadetblue {
+    background-color: cadetblue;
+}
+#box-aqua{
+    background-color: aqua;
+}

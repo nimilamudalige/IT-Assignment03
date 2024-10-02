@@ -1,0 +1,167 @@
+body{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+.container{
+}
+
+.box {
+    height:50vh;
+    width: 50vw;
+    position: fixed;
+}
+#box1 {
+    background-color: red;
+    top: 0;
+    left: 0;
+}
+#box2 {
+    background-color: green;
+    top: 0;
+    right: 0;
+}
+#box3 {
+    background-color: orange;
+    bottom: 0;
+    left: 0;
+    
+}
+#box4 {
+    background-color: rgb(249, 60, 123);
+    bottom: 0;
+    right: 0;
+}
+.border {
+    height:140px;
+    width: 140px;
+    background-color: aliceblue;
+    position: absolute;
+   
+}
+#border1{
+    top: 0;
+    left: 0;
+    border-bottom-right-radius: 130px;
+}
+#border2{
+    top: 0;
+    right: 0;
+    border-bottom-left-radius: 130px;
+}
+#border3{
+    bottom: 0;
+    left: 0;
+    border-top-right-radius: 130px;
+}
+#border4{
+    bottom: 0;
+    right: 0;
+    border-top-left-radius: 130px;
+}
+
+/* .border-center{
+    width: 200px;
+    height: 200px;
+    background-color: aliceblue;
+    position: absolute;
+    transform: translateX(-50%);
+
+}
+
+#border5{
+    top: -100px;
+    right: 42.5vw;
+    border-radius: 100px;
+}
+#border6{
+    bottom: -100px;
+    right: 42.5vw;
+    border-radius: 100px;
+
+} */
+
+.border-top-center{
+    margin: -75px 0 0 0;
+    height: 160px ;
+    width: 160px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    border-radius: 100%;
+    transform: translateX(-50%);
+}
+
+.border-bottom-center{
+    margin: 0 0 -75px 0;
+    height: 160px ;
+    width: 160px;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    border-radius: 100%;
+    transform: translateX(-50%);
+
+}
+.circle{
+    position: absolute;
+    width: 210px;
+    height: 210px;
+    background-color: aliceblue;
+    border-radius: 180px;
+    position: absolute;
+
+}
+
+#circle1{
+    top: 9vh;
+    left: 17vw;
+} 
+#circle2{
+    top: 9vh;
+    left: 66vw;
+}
+#circle3{
+    top: 58vh;
+    left: 17vw;
+}
+#circle4{
+    top: 58vh;
+    left: 66vw;
+}
+
+.inbox{
+width: 100px;
+height: 100px;
+background-color: red;
+position: absolute;
+top: 55px;
+left:55px;
+
+}
+
+.center-box{
+   width: 200px;
+   height: 200px;
+   background-color: aliceblue;
+    position: absolute;
+    top: 37vh;
+    left: 43vw;
+
+
+} 
+.center-circle{
+    width:140px;
+    height: 140px;
+    border-radius: 100px;
+    background-color: red;
+    position: absolute;
+    top: 30px;grid-row-start: 1;
+    grid-row-end: 4;
+    left: 30px;
+
+    } 
+    
